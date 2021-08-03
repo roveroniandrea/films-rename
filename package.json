@@ -1,0 +1,16 @@
+{
+  "name": "films-rename",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "git pull && tsc && node ./build/index.js",
+    "test": "tsc && node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.4.10"
+  }
+}
